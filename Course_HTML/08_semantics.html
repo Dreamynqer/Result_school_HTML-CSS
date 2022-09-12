@@ -1,0 +1,72 @@
+<!--Семантика - это когда с помощью тегов мы сами обозначаем где какие элементы у нас лежат, для того чтобы поисковые роботы лучше понимали, что у нас за сайт и что, мы на нем даем-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <style>
+      .header {
+        border-bottom: 2px solid grey;
+      }
+
+      .card {
+        background-color: #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .color { 
+        color: red; 
+      }
+    </style> 
+  </head>
+  <body>
+
+    <header id="header" class="header"> 
+      <h2>Site</h2>
+    </header> <!--Визульно не чем не отличается от div, но для тех же роботов оно дает понимание как этот элемент будет обозначаться на сайте-->
+
+    <nav id="navigation">
+      
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </nav> <!--Для навигации тег nav-->
+
+    <hr>
+
+    <aside></aside> <!--aside-->
+
+    <section>
+    <article id="block1" class="card header">
+      <h3>Block 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur <div class="color">qui fugiat quasi quae quo veniam fuga</div> adipisci labore, reprehenderit debitis.</p> 
+    </article> <!--article, тот же самый принцип-->
+
+    <article id="block2" class="card">
+      <h3>Block 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur <span class="color"> adipisicing elit. Aspernatur qui fugiat quasi</span> quae quo veniam fuga adipisci labore, reprehenderit debitis.</p> 
+    </article> 
+  </section> <!--article, section тот же самый принцип-->
+
+    <hr>
+
+    <footer id="footer">
+      <h4>Contact me</h4>
+      <ul>
+        <li>Instagram</li>
+        <li>Telegram</li>
+        <li>Youtube</li>
+      </ul>
+    </footer> <!--footer-->
+
+    
+
+
+  </body>
+</html>
