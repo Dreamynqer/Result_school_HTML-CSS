@@ -1,0 +1,24 @@
+.color-1 {
+  color: crimson;
+}
+
+/* Red Green Blue */
+/* 00 - ff */
+.color-2 {
+  /* color: #AFEEEE; */
+  color: #000000;
+}
+
+.color-3 {
+  color: #000;
+}
+
+/* 0 - 255 */
+.color-4 {
+  color: rgb(0, 0, 0);
+  /* opacity: 1; (тот же самый результат, что и прозрачность) */
+}
+
+.color-5 {
+  color: rgba(0, 0, 0, 1); /* Прозрачность текста */
+}
