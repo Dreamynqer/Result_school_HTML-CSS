@@ -1,0 +1,38 @@
+/* Tag Name */
+body {
+  background: #eee;
+}
+
+/* Class */
+.card {
+  /*для того чтобы обратиться к классу пишем .название класса*/
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.html {
+  background: #ec6428;
+  color: white;
+}
+
+.css {
+  background: #264de4;
+  color: white;
+}
+
+/* Id */
+#header {
+  background: #ddd;
+  padding: 10px;
+}
+
+#header,
+.html,
+.css {
+  margin-bottom: 10px;
+}
