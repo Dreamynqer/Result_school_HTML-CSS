@@ -1,0 +1,40 @@
+a {
+  color: #333;
+  text-decoration: none;
+  /* transition: all 0.2s; */
+}
+
+a:hover {
+  /* hover - может применяться для любых элементов */
+  color: orange;
+  /* font-size: 2rem; */
+}
+
+/* a:visited {
+  color: red;
+ } */
+/*   Позволяет понять переходил ли я на эту ссылку, если переходил закрашивает цветом */
+
+a:active {
+  color: blue;
+}
+
+/* .css:hover {
+  background: red;
+
+} */
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}
