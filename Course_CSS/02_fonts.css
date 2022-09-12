@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  /* font-family: Verdana, Geneva, sans-serif; (для шрифтов юзаются отдельные свойства чтобы было легче ими управлять) */
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; /* (С помощью этого свойства я могу управлять размерами и шрифтами( */
+  line-height: 1.6em; /* (Высота линий) */
+  font-weight: normal; /* (Также можно и bold, и цифрами и т.д) */
+
+  /* font: normal 20px 'Roboto', sans-serif; Общее свойство обьединяющее в себе 3, а именно: font-weght, font-size, font-family */
+
+  /* text-decoration: (line-through, underline и т.д); */
+
+  /* font-style: italic; (аналог em - курсив) */
+
+  /* letter-spacing: 2px; (меняет отступ между буквами) */
+
+  /* word-spacing: 20px; (отступ между словами) */
+}
+
+/* .css p {
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: bold;
+
+} */
