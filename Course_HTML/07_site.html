@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <style>
+      .header {
+        border-bottom: 2px solid grey;
+      }
+
+      .card {
+        background-color: #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .color { 
+        color: red; 
+      }
+    </style> <!--Элемент которому мы зададим класс color, у него будет цвет текста который мы задали-->
+  </head>
+  <body>
+
+    <div id="header" class="header"> <!--Классы мы используем для стилистики-->
+      <h2>Site</h2>
+    </div>
+
+    <div id="navigation">
+      <!--Id - должен быть уникальным-->
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div id="block1" class="card header">
+      <h3>Block 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur <div class="color">qui fugiat quasi quae quo veniam fuga</div> adipisci labore, reprehenderit debitis.</p> <!--При использовании элемента div - текст перемещается на новую строку-->
+    </div>
+
+    <div id="block2" class="card">
+      <h3>Block 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur <span class="color"> adipisicing elit. Aspernatur qui fugiat quasi</span> quae quo veniam fuga adipisci labore, reprehenderit debitis.</p> <!--При использовании элемента span текст остается на той же строке-->
+    </div>
+
+    <hr>
+
+    <div id="fotter"> <!--подвал сайта-->
+      <h4>Contact me</h4>
+      <ul>
+        <li>Instagram</li>
+        <li>Telegram</li>
+        <li>Youtube</li>
+      </ul>
+    </div>
+
+    <!-- <div class=""></div> Если хотим написать div, span с каким либо классом, нажимаем div, span. и нажимаем tab, если id то нажимаем div#, можем сразу набрать название id -->
+
+
+  </body>
+</html>
